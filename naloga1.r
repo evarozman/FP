@@ -12,5 +12,5 @@ skupna.tabela <- t(skupna.tabela)
 casovna.vrsta6 <- ts(skupna.tabela[, c('6m')], start = c(2015, 1), frequency = 12)
 casovna.vrsta12 <- ts(skupna.tabela[, c('12m')], start = c(2015, 1), frequency = 12)
 
-graf <- ts.plot(casovna.vrsta6, casovna.vrsta12, xlab='Time', ylab='%', main='Euribor', col=c('red', 'blue'))
+graf.obrestne.mere <- ts.plot(casovna.vrsta6, casovna.vrsta12, xlab='Time', ylab='%', main='Euribor', col=c('red', 'blue'))
         legend("topright", legend=c("6m","12m"), lty=1, col=c("red","blue"))
