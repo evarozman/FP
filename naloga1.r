@@ -37,6 +37,12 @@ text(10.5,-0.3, "2.1.2015",col = "purple")
 text(10.5,0.05, "1.6.2016",col="blue")
 text(10.5,0.4, "1.12.2017", col="yellow")
 
+# Vse tri krivulje  prikazujejo približno linearno rast višine obrestnih mer glede na dospetje (bolj
+# kot je dospetje oddaljeno, višja je obrestna mera). 2.1.2015 in 1.6.2016 je imela obrestna mera
+# za krajša dopetja približno enako vrednost, bolj strmo je začel naraščati graf za junij 2016 pri
+# daljših dospetjih. 1.12.2017 je bila obrestna mera za 0.4% višja, hitrost naraščanja pa je bila
+# zelo podobna tisti iz 1.6.2016.
+
 
 ## 3. naloga
 
@@ -80,5 +86,5 @@ graf.2017 <- plot(leto.2017, main = "6m Euribor 2017", xlab = "Napoved", ylab = 
              abline(lm(razlika$Napoved6m[25:36] ~ razlika$Euribor6m[25:36]), col = "636")
              abline(0, 1, lty = 'dashed')
 
-# Če bi hipoteza pričakovanj trga veljala, bi morale točke na grafikonih v nalogah (c) in (d) lezalti
+# Če bi hipoteza pričakovanj trga veljala, bi morale točke na grafih v nalogah (c) in (d) ležati
 # na simetrali lihih kvadrantov. Empirični podatki te hipoteze ne potrjujejo.
