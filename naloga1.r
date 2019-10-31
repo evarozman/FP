@@ -37,11 +37,11 @@ text(10.5,-0.3, "2.1.2015",col = "purple")
 text(10.5,0.05, "1.6.2016",col="blue")
 text(10.5,0.4, "1.12.2017", col="yellow")
 
-# Vse tri krivulje  prikazujejo približno linearno rast višine obrestnih mer glede na dospetje (bolj
-# kot je dospetje oddaljeno, višja je obrestna mera). 2.1.2015 in 1.6.2016 je imela obrestna mera
-# za krajša dopetja približno enako vrednost, bolj strmo je začel naraščati graf za junij 2016 pri
-# daljših dospetjih. 1.12.2017 je bila obrestna mera za 0.4% višja, hitrost naraščanja pa je bila
-# zelo podobna tisti iz 1.6.2016.
+# Vse tri krivulje  prikazujejo približno linearno rast višine obrestnih mer glede na dospetje.
+# 2.1.2015 in 1.6.2016 je imela obrestna mera za krajša dopetja približno enako vrednost, vendar 
+# iz strmine grafa za junij 2016 vidimo, da je takrat višina obrestne mere z daljšanjem dospetja 
+# naraščala hitreje kot januarja 2015. 1.12.2017 je bila obrestna mera za 0.4% višja kot pri 
+# prejšnjih dveh datumih, hitrost naraščanja pa je zelo podobna tisti iz 1.6.2016.
 
 
 ## 3. naloga
